@@ -1,0 +1,111 @@
+/* .background{
+    min-height: 100vh;
+    background: rgb(207,238,238);
+    background: linear-gradient(138deg, rgba(207,238,238,1) 0%, rgba(255,255,255,1) 47%, rgba(247,247,247,1)100%);
+} */
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+.col{
+    flex-basis: 50%;
+    position: relative;
+}
+.feature-img{
+    width: 55%;
+    margin-top: 70px;
+    margin-left: 260px;
+}
+.col h1{
+    margin-top: 100px;
+    margin-left: 190px;
+    font-size: 60px;
+    font-weight: 50vh;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.outline{
+    margin-top: 0px;
+    margin-left: 20px;
+    font-size: 60px;
+    font-weight: 50vh;
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    outline: 3px solid blue;
+    outline-offset: 1px;
+    border-radius: 30px;
+    color: black;
+}
+.col p{
+    margin-left: 190px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: gray;
+}
+
+.col a{
+    position: absolute;
+    margin-left: 500px;
+    margin-top: 45px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: none;
+    color: skyblue;
+}
+.video{
+    position: absolute;
+    width: 5%;
+    margin-left: 425px;
+    margin-top: 30px;
+}
+.under{
+    flex-basis: 50%;
+    position: relative;
+    padding-top: 50px;
+}
+.under h2{
+    text-align: center;
+    font-size: 35px;
+    font-weight: 50vh;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.under p{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: gray;
+}
+.gridbox{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+    gap: 50px;
+    text-align: center;
+    padding: 15px 10%;
+}
+.box img{
+    width: 15%;
+    margin-top: 50px;
+}
+.box{
+    box-shadow: 0 5px 10px rgba(0,0,0,.2);
+    border-radius: 10px;
+    background: white;
+    text-align: center;
+    padding-bottom: 100px;
+}
+.box h3{
+    text-align: center;
+    font-size: 30px;
+    margin-top: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.box p{
+    text-align: center;
+    margin-left: 0;
+}
+.box button{
+    background-color: whitesmoke;
+    color: black;
+    border-radius: 5px;
+    padding: 20px 30px;
+    margin-top: 10px;
+    border: none;
+}
+
+@media only screen and (max-width: 600px){}
